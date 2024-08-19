@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JFSD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text for contrast */
+        }
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px; /* Space between buttons */
+        }
+
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            width: 200px; /* Fixed width for consistency */
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Details</h2>
+    <div class="button-container">
+        <a href="add.html" class="btn">Add Student</a>
+        <a href="update.html" class="btn">Update Student</a>
+        <a href="delete.html" class="btn">Delete Student</a>
+        <a href="ReadStudents" class="btn">Read Students</a>
+    </div>
+</body>
+</html>
